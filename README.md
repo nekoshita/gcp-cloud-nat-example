@@ -56,5 +56,6 @@ $ gcloud beta compute ssh --zone asia-northeast1-a bastion --project $GCP_PROJEC
 # 踏み台サーバーから外部IPを持たないVMインスタンスにSSH接続する
 $ gcloud compute ssh --zone asia-northeast1-a my-instance --internal-ip
 # グローバルIPアドレスを取得できるか確認する
+$ sudo apt install curl
 $ curl httpbin.org/ip
 ```
